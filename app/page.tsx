@@ -1,7 +1,11 @@
+import { EditorLayout } from "@/components/editor/editor-layout";
+
 export default function Home() {
   return (
-    <div className="grid min-h-screen place-items-center">
-      <p>Ghost AI</p>
-    </div>
+    <EditorLayout>
+      <main className="grid h-full place-items-center bg-base">
+        <p className="text-copy-muted">Ghost AI</p>
+      </main>
+    </EditorLayout>
   );
 }
